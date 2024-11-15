@@ -10,6 +10,16 @@
 
 ###
 
+###
+
+```
+
+npm install
+
+npm run dev
+
+```
+
 <h2 align="left">Build With:</h2>
 
 ###
