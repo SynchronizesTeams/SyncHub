@@ -4,10 +4,22 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts">
 
+definePageMeta({
+  middleware: 'auth',
+})
+
+export default {
+  methods: {
+
+  },
+  computed: {
+    isAuthenticated() {
+      return !!localStorage.getItem('token');
+    },
+  },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

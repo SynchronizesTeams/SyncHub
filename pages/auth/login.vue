@@ -65,12 +65,13 @@
         </span>
         <hr class="w-2/4 border-[#05232E]" />
       </div>
-      <form>
+      <form @submit.prevent="login">
         <div class="mb-4">
           <input
             type="text"
             placeholder="Email or Username"
             class="w-full p-2 border rounded-full px-4 transition-all duration-150"
+            v-model="form.email"
           />
         </div>
         <div class="mb-4">
@@ -78,6 +79,7 @@
             type="password"
             placeholder="Password"
             class="w-full p-2 border rounded-full px-4"
+            v-model="form.password"
           />
         </div>
         <div class="flex justify-between flex-col text-base mb-4">
@@ -111,4 +113,39 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+
+export default {
+  data() {
+    return {
+      form: {
+        email: '',
+        password: '',
+      }
+    }
+  },
+  methods: {
+    async login() {
+      try {
+        const response = await $fetch('https://e294-66-96-225-83.ngrok-free.app/api/v1/auth/login', {
+          method: 'POST',
+          headers: {
+              "Content-Type": "application/json",
+              "Accept": "application/json",
+              "Authorization": "Bearer synchub_token_access",
+          },
+          body: this.form,
+          
+        })
+        if (response?.status === 'success') {
+          localStorage.setItem('token', response.data.token)
+          console.log("berhasil login", response)
+          navigateTo('/')
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    }
+  }
+}
+</script>
