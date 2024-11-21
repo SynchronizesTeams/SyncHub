@@ -6,7 +6,9 @@
 
 ###
 
-<p align="left">...</p>
+<p align="left">
+  Social Media Site made with Nuxt 3 and Laravel(On Other Repo)
+</p>
 
 ###
 
@@ -39,3 +41,5 @@ npm run dev
 </div>
 
 ###
+
+###### On Going Project
