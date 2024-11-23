@@ -118,7 +118,7 @@
 <script>
 
 definePageMeta({
-  layout: 'empty',
+  layout: 'default',
 })
 
 export default {
