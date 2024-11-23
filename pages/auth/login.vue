@@ -115,6 +115,10 @@
 
 <script>
 
+definePageMeta({
+  layout: 'empty',
+})
+
 export default {
   data() {
     return {

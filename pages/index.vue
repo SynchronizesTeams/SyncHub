@@ -1,22 +1,17 @@
 <template>
-  <div class="">
-    
-  </div>
+  <div class=""></div>
 </template>
 
 <script lang="ts">
 
 definePageMeta({
-  middleware: 'auth',
+  middleware: 'auth'
 })
 
 export default {
-  methods: {
-
-  },
   computed: {
     isAuthenticated() {
-      return !!localStorage.getItem('token');
+      return !!localStorage.getItem("token");
     },
   },
 };
