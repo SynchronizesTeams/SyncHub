@@ -106,6 +106,12 @@
 </template>
 
 <script >
+
+definePageMeta({
+  layout: 'empty',
+})
+
+
 export default {
   data() {
     return {
@@ -121,7 +127,7 @@ export default {
   methods: {
     async register() {
       try {
-        const response = await $fetch("https://e294-66-96-225-83.ngrok-free.app/api/v1/auth/register", {
+        const response = await $fetch("https://ff9f-66-96-225-83.ngrok-free.app/api/v1/auth/register", {
           method: "POST",
           // baseURL: process.env.BE_API,
           headers: {
@@ -140,6 +146,7 @@ export default {
       } catch (error) {
         console.error(error);
       }
+      navigateTo('/auth/login')
     },
   },
 };
