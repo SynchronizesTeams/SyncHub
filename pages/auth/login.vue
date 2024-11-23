@@ -1,4 +1,5 @@
 <template>
+  <mySidebar></mySidebar>
   <div class="min-h-screen flex items-center justify-around bg-[#CBD8D1]">
     <div
       class="w-full max-w-sm p-6 bg-white shadow-lg rounded-lg outline outline-4 outline-[#137E9E]"
@@ -109,6 +110,7 @@
       <img src="/images/icon.svg" alt="Illustration" class="" />
     </div>
   </div>
+
 </template>
 
 <script setup></script>
