@@ -12,11 +12,13 @@
   "dependencies": {
     "@nuxt/icon": "^1.7.5",
     "@nuxtjs/tailwindcss": "^6.12.2",
+    "axios": "^1.7.7",
     "nuxt": "^3.14.159",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@iconify-json/simple-icons": "^1.2.12"
+    "@iconify-json/simple-icons": "^1.2.12",
+    "@types/node": "^22.9.1"
   }
 }
