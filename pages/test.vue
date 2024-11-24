@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ProfileCard></ProfileCard>
   </div>
 </template>
 
@@ -7,6 +8,9 @@
 </style>
 
 <script>
+definePageMeta({
+  layout: 'dashboard'
+})
 
 </script>
   
