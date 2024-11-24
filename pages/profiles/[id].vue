@@ -6,7 +6,7 @@
       class="flex h-32 w-32 mx-8 my-8 bg-white rounded-full outline-1 outline outline-primary"
     >
       <span
-        class="absolute mx-24 mt-20 h-9 w-9 bg-[#6E9B65] rounded-full"
+        class="absolute mx-24 mt-24 h-9 w-9 bg-[#6E9B65] rounded-full"
       ></span>
 
       <div class="absolute">
