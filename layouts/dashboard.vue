@@ -3,7 +3,7 @@
     <Topbar />
     <div className="flex flex-1 w-full">
       <Sidebar />
-      <main className="flex-1 overflow-auto">
+      <main className="flex-1 overflow-auto bg-tertiary w-full h-full border-t-primary border-l-primary border-tertiary rounded-tl-3xl border-[2px]">
         <slot />
       </main>
     </div>
