@@ -1,5 +1,5 @@
 <template>
- <div className=" w-fit">
+ <div className="h-screen w-fit">
       <aside className="h-full p-2 flex flex-col justify-between w-fit bg-tertiary">
         <div className="space-y-4">
           <div className="w-9 h-9">
