@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@iconify-json/simple-icons": "^1.2.12",
+    "@nuxt/typescript-build": "^3.0.2",
     "@types/node": "^22.9.1"
   }
 }
