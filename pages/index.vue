@@ -1,6 +1,6 @@
 <template>
-  <div class=" bg-tertiary w-full h-full border-t-primary border-l-primary border-tertiary rounded-tl-3xl border-[2px]">
-    
+  <div class="">
+    <Post />
   </div>
 </template>
 
