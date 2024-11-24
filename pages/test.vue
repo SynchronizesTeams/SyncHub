@@ -1,6 +1,5 @@
 <template>
   <div>
-    <ProfileCard></ProfileCard>
   </div>
 </template>
 
