@@ -1,6 +1,6 @@
 <template>
- <div className="h-screen w-fit">
-      <aside className="h-full p-2 flex flex-col justify-between w-fit bg-tertiary">
+ <div className=" w-fit">
+      <aside className=" h-full p-2 flex flex-col justify-between w-fit bg-tertiary">
         <div className="space-y-4">
           <div className="w-9 h-9">
             <img src="/public/Images/Home.svg" alt="Home" className="w-full h-full" />
