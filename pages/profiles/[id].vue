@@ -42,7 +42,7 @@
 <!-- 
     <div class="relative w-2 h-full ml-5 px-20 bg-tertiary outline outline-primary rounded-3xl">
 
-    </div> -->
+    </div> apalah-->
   </div>
 </template>
 
