@@ -1,11 +1,13 @@
 <template>
-  <div class=""></div>
+  <div class="">
+    <Post />
+  </div>
 </template>
 
 <script lang="ts">
 
 definePageMeta({
-  middleware: 'auth'
+  layout: "dashboard",
 })
 
 export default {
@@ -15,6 +17,8 @@ export default {
     },
   },
 };
+
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
