@@ -6,7 +6,7 @@
 .cache
 dist
 
-# Node dependencies
+# Node dependencies.
 node_modules
 
 # Logs
