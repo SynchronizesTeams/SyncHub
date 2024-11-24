@@ -105,7 +105,17 @@
   </div>
 </template>
 
+<<<<<<< HEAD
 <script > 
+=======
+<script >
+
+definePageMeta({
+  layout: 'empty',
+})
+
+
+>>>>>>> 8f67f614193bd1409b992df8538d10321e9492fb
 export default {
   data() {
     return {
