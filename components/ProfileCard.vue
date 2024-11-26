@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen relative overflow-hidden w-[50rem] bg-tertiary border-2 border-primary shadow-lg rounded-2xl py-4 z-50"
+    class="z-1000 h-screen relative overflow-hidden w-[50rem] bg-tertiary border-2 border-primary shadow-lg rounded-2xl py-4 z-50"
   >
     <div class="relative flex flex-col items-center">
       <img
